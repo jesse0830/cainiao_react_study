@@ -6,12 +6,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
+          <h2>欢迎来到JesseYoung从零开始学习</h2>
+        </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          你可以在 <code>src/App.js</code> 文件中修改
         </p>
       </div>
     );
